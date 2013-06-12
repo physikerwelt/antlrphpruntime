@@ -5,7 +5,7 @@ Installation
 There is no prebuilt packages at the moment, you need to compile your own version
 from the source. 
 
-    # install antlr 3.4 (or later tested with 3.5 does not work with 4.0)
+    # install antlr 3.4 (compiles with 3.5 does not work with 4.0)
     vi build.properties
     ant
 
@@ -88,3 +88,34 @@ source bundle at http://www.antlr.org/download/.
 The test cases, found in the test directory, need PHPUnit3 to run. This should be available through pear,
 instructions here http://www.phpunit.de/manual/3.3/en/installation.html, so I just download it
 from http://pear.phpunit.de/get/.
+
+Quickstart
+==========
+(Install Java JDK, I use java sun)
+
+Build
+
+apt-get install ant 
+git clone git@github.com:physikerwelt/antlrphpruntime.git
+cd antlrphpruntime
+wget http://www.antlr3.org/download/antlr-3.4-complete.jar
+ant
+
+sould output some warning but in the end something like
+
+BUILD SUCCESSFUL
+
+Testing
+
+cd test
+java -cp '../lib/*' org.antlr.Tool Id.g
+php printids.php
+
+should print out
+
+Running ID test...
+Hello
+World
+
+
+

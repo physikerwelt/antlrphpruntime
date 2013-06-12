@@ -6,3 +6,8 @@ Main.php
 If you are familiar with ANTLR implementation for Java, you can just compare
 the inside of correspoinding php files.
 
+To test run
+
+java -cp "../../lib/*" org.antlr.Tool CommonLexer.g 
+java -cp "../../lib/*" org.antlr.Tool Simple.g 
+php Main.php input

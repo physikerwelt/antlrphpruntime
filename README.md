@@ -5,7 +5,7 @@ Installation
 There is no prebuilt packages at the moment, you need to compile your own version
 from the source. 
 
-    # install antlr 3.4 (or later)
+    # install antlr 3.4 (or later tested with 3.5 does not work with 4.0)
     vi build.properties
     ant
 

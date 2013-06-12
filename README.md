@@ -95,11 +95,11 @@ Quickstart
 
 Build
 
-apt-get install ant 
-git clone git@github.com:physikerwelt/antlrphpruntime.git
-cd antlrphpruntime
-wget http://www.antlr3.org/download/antlr-3.4-complete.jar
-ant
+    apt-get install ant 
+    git clone git@github.com:physikerwelt/antlrphpruntime.git
+    cd antlrphpruntime
+    wget http://www.antlr3.org/download/antlr-3.4-complete.jar
+    ant
 
 sould output some warning but in the end something like
 
@@ -107,15 +107,15 @@ BUILD SUCCESSFUL
 
 Testing
 
-cd test
-java -cp '../lib/*' org.antlr.Tool Id.g
-php printids.php
+    cd test
+    java -cp '../lib/*' org.antlr.Tool Id.g
+    php printids.php
 
 should print out
 
-Running ID test...
-Hello
-World
+    Running ID test...
+    Hello
+    World
 
 
 

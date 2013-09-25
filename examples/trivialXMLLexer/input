@@ -1,4 +1,4 @@
 <t>
   Starting text inside t
-  <t1>Text inside t1</t1>
+  <t1>Text insiøde some more \c¾ommand<to> text</to> utf-8 examp®le t1</t1>
 </t>
